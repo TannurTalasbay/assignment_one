@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="01682a48-11a6-4e04-8898-bf0014e1d215" name="Changes" comment="" />
+    <list default="true" id="01682a48-11a6-4e04-8898-bf0014e1d215" name="Changes" comment="I create a constructor to implement points of figure in MyApplication.java page to insert elements to array list" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,17 +54,46 @@
       <option name="presentableId" value="Default" />
       <updated>1703417474799</updated>
     </task>
+    <task id="LOCAL-00001" summary="I create a new file with name MyAppication">
+      <option name="closed" value="true" />
+      <created>1703417601583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703417601583</updated>
+    </task>
+    <task id="LOCAL-00002" summary="I create a new file with name Point">
+      <option name="closed" value="true" />
+      <created>1703417711466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703417711466</updated>
+    </task>
+    <task id="LOCAL-00003" summary="I create a new file with name Shape">
+      <option name="closed" value="true" />
+      <created>1703417790294</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703417790294</updated>
+    </task>
+    <task id="LOCAL-00004" summary="I create a constructor to implement points of figure in MyApplication.java page to insert elements to array list">
+      <option name="closed" value="true" />
+      <created>1703418129660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703418129660</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="I create a new file with name MyAppication" />
+    <MESSAGE value="I create a new file with name Point" />
+    <MESSAGE value="I create a new file with name Shape" />
+    <MESSAGE value="I create a constructor to implement points of figure in MyApplication.java page to insert elements to array list" />
+    <option name="LAST_COMMIT_MESSAGE" value="I create a constructor to implement points of figure in MyApplication.java page to insert elements to array list" />
   </component>
 </project>
