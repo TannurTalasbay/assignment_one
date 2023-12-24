@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01682a48-11a6-4e04-8898-bf0014e1d215" name="Changes" comment="I create a constructor to implement points of figure in MyApplication.java page to insert elements to array list" />
+    <list default="true" id="01682a48-11a6-4e04-8898-bf0014e1d215" name="Changes" comment="At the end, I called the Shape class and the Point class and its methods in MyApplication page and output them. Output shows the points and the perimeter, longest size and average size of shape" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,8 +31,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MyAppication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/assinment_one/src/Main.java"
@@ -86,7 +88,63 @@
       <option name="project" value="LOCAL" />
       <updated>1703418129660</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="then I created method distanceTo to calculate the distance of each point and use formula Euclidean distance for this, it returns individual destination between two points, which will be performed by iteration in Shape.java page">
+      <option name="closed" value="true" />
+      <created>1703418580030</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703418580030</updated>
+    </task>
+    <task id="LOCAL-00006" summary="I created toString() method to show the each point in brackets by order in output, which retrieves them from ArrayList">
+      <option name="closed" value="true" />
+      <created>1703418717504</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703418717504</updated>
+    </task>
+    <task id="LOCAL-00007" summary="I created Shape constructor to get elements from ArrayList. I called it in MyApplication page and related them, then it will be performed to implement methods in this page">
+      <option name="closed" value="true" />
+      <created>1703419081179</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703419081179</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Here are created perimeter() method to find the sum of all shapes, which started and ended in the same point, for that case, we need to consider the size of arraylist, then iterate it. First, we have to get first point by index, then get the next point. After that, we call the method, where was found the shape size and add it and this will be continued until the end">
+      <option name="closed" value="true" />
+      <created>1703419824056</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703419824056</updated>
+    </task>
+    <task id="LOCAL-00009" summary="By longestSide() method, we will find the shape, which contains maximum size than other shapes">
+      <option name="closed" value="true" />
+      <created>1703420100748</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703420100748</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Using the averageSide() method, we can find the sum of all shapes then divide to size of arraylist">
+      <option name="closed" value="true" />
+      <created>1703420300306</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703420300306</updated>
+    </task>
+    <task id="LOCAL-00011" summary="At the end, I called the Shape class and the Point class and its methods in MyApplication page and output them. Output shows the points and the perimeter, longest size and average size of shape">
+      <option name="closed" value="true" />
+      <created>1703420754699</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703420754699</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -94,6 +152,13 @@
     <MESSAGE value="I create a new file with name Point" />
     <MESSAGE value="I create a new file with name Shape" />
     <MESSAGE value="I create a constructor to implement points of figure in MyApplication.java page to insert elements to array list" />
-    <option name="LAST_COMMIT_MESSAGE" value="I create a constructor to implement points of figure in MyApplication.java page to insert elements to array list" />
+    <MESSAGE value="then I created method distanceTo to calculate the distance of each point and use formula Euclidean distance for this, it returns individual destination between two points, which will be performed by iteration in Shape.java page" />
+    <MESSAGE value="I created toString() method to show the each point in brackets by order in output, which retrieves them from ArrayList" />
+    <MESSAGE value="I created Shape constructor to get elements from ArrayList. I called it in MyApplication page and related them, then it will be performed to implement methods in this page" />
+    <MESSAGE value="Here are created perimeter() method to find the sum of all shapes, which started and ended in the same point, for that case, we need to consider the size of arraylist, then iterate it. First, we have to get first point by index, then get the next point. After that, we call the method, where was found the shape size and add it and this will be continued until the end" />
+    <MESSAGE value="By longestSide() method, we will find the shape, which contains maximum size than other shapes" />
+    <MESSAGE value="Using the averageSide() method, we can find the sum of all shapes then divide to size of arraylist" />
+    <MESSAGE value="At the end, I called the Shape class and the Point class and its methods in MyApplication page and output them. Output shows the points and the perimeter, longest size and average size of shape" />
+    <option name="LAST_COMMIT_MESSAGE" value="At the end, I called the Shape class and the Point class and its methods in MyApplication page and output them. Output shows the points and the perimeter, longest size and average size of shape" />
   </component>
 </project>

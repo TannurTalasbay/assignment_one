@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
-public class MyAppication {
+public class MyApplication {
+
     public static void main(String[] args) {
         ArrayList<Point> points = new ArrayList<>();
         Point p1 = new Point(0, 0);
