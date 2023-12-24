@@ -26,4 +26,13 @@ public class Shape {
         }
         return max;
     }
+    public double averageSide() {
+        double all = 0;
+        for(int i = 0; i < points.size(); i++){
+            Point current = points.get(i);
+            Point next = points.get((i + 1) % points.size());
+            all += current.distanceTo(next);
+        }
+        return all / points.size();
+    }
 }
