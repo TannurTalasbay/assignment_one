@@ -12,4 +12,10 @@ public class Point {
         double ny = distance.y - this.y;
         return Math.sqrt(nx*nx + ny*ny);
     }
+
+    @Override
+    public String toString(){
+        return "(" + x + "," + y + ")";
+    }
+
 }
